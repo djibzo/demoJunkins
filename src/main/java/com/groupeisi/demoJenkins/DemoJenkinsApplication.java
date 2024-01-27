@@ -11,6 +11,7 @@ public class DemoJenkinsApplication {
 		System.out.println("test2 du l'automatisation");
 		System.out.println("test3 du l'automatisation");
 		System.out.println("test4 du l'automatisation");
+		System.out.println("test5 du l'automatisation");
 		SpringApplication.run(DemoJenkinsApplication.class, args);
 	}
 }
