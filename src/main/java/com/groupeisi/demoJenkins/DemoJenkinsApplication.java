@@ -8,6 +8,7 @@ public class DemoJenkinsApplication {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome ");
+		System.out.println("Welcome 2 ");
 		SpringApplication.run(DemoJenkinsApplication.class, args);
 		System.out.println(add(1,2));
 	}
