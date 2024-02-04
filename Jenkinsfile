@@ -70,12 +70,5 @@ pipeline {
     }
 
 }
-        stage('Run Logstash'){
-            steps{
-                script{
-                   bat 'C:/Users/hp/Desktop/COURS_L3GL_2324/DEVOPS/logstash-8.11.4/bin/logstash -f C:/Users/hp/Desktop/COURS_L3GL_2324/DEVOPS/logstash-8.11.4/logstash.conf'
-                }
-            }
-        }
 }
 }
